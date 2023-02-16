@@ -3,10 +3,10 @@ using UnityEngine.UI;
 using Klak.TestTools;
 using BodyPix;
 
-public sealed class Tester : MonoBehaviour
+public sealed class Compositor : MonoBehaviour
 {
     [SerializeField] ImageSource _source = null;
-    [SerializeField] Shader _previewShader = null;
+    [SerializeField] Shader _shader = null;
     [SerializeField] Texture2D _background = null;
     [SerializeField] RawImage _previewUI = null;
     [SerializeField] ResourceSet _resources = null;
@@ -17,7 +17,7 @@ public sealed class Tester : MonoBehaviour
     void Start()
     {
         _detector = new BodyDetector(_resources, 320, 240);
-        _material = new Material(_previewShader);
+        _material = new Material(_shader);
         _previewUI.material = _material;
     }
 
