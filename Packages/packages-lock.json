@@ -74,6 +74,15 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.visualeffectgraph": {
+      "version": "14.0.6",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "14.0.6",
+        "com.unity.render-pipelines.core": "14.0.6"
+      }
+    },
     "jp.keijiro.bodypix": {
       "version": "2.2.0",
       "depth": 0,
@@ -82,6 +91,13 @@
         "com.unity.barracuda": "3.0.0",
         "jp.keijiro.klak.nnutils": "1.0.0"
       },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.klak.lineargradient": {
+      "version": "1.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
     "jp.keijiro.klak.nnutils": {
@@ -102,6 +118,51 @@
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequesttexture": "1.0.0",
         "com.unity.modules.video": "1.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.metamesh": {
+      "version": "1.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.metatex": {
+      "version": "1.0.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "jp.keijiro.klak.lineargradient": "1.0.2"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.noiseshader": {
+      "version": "2.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.shadergraphassets": {
+      "version": "2.5.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.shadergraph": "12.1.0",
+        "jp.keijiro.noiseshader": "2.0.0"
+      },
+      "url": "https://registry.npmjs.com"
+    },
+    "jp.keijiro.vfxgraphassets": {
+      "version": "1.2.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.visualeffectgraph": "12.1.8",
+        "jp.keijiro.shadergraphassets": "2.5.2"
       },
       "url": "https://registry.npmjs.com"
     },

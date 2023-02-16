@@ -10,7 +10,11 @@
   ],
   "dependencies": {
     "com.unity.render-pipelines.universal": "14.0.6",
+    "com.unity.visualeffectgraph": "14.0.6",
     "jp.keijiro.bodypix": "2.2.0",
-    "jp.keijiro.klak.testtools": "1.0.4"
+    "jp.keijiro.klak.testtools": "1.0.4",
+    "jp.keijiro.metamesh": "1.1.1",
+    "jp.keijiro.metatex": "1.0.4",
+    "jp.keijiro.vfxgraphassets": "1.2.0"
   }
 }
