@@ -4,7 +4,7 @@ using Klak.TestTools;
 using BodyPix;
 using Unity.Mathematics;
 
-public sealed class Tester : MonoBehaviour
+public sealed class Catcher : MonoBehaviour
 {
     [SerializeField] ImageSource _source = null;
     [SerializeField] ResourceSet _resources = null;
