@@ -14,6 +14,12 @@ public sealed class Compositor : MonoBehaviour
     BodyDetector _detector;
     Material _material;
 
+    public void Anonymize(bool flag)
+      => _material.SetInt("_Anonymize", flag ? 1 : 0);
+
+    public void SetThreshold(float value)
+      => _material.SetFloat("_Threshold", value);
+
     void Start()
     {
         _detector = new BodyDetector(_resources, 320, 240);
@@ -33,7 +39,6 @@ public sealed class Compositor : MonoBehaviour
     void Update()
     {
         _detector.ProcessImage(_source.Texture);
-
         _material.SetTexture("_BgTexture", _background);
         _material.SetTexture("_CameraTexture", _source.Texture);
         _material.SetTexture("_MaskTexture", _detector.MaskTexture);
