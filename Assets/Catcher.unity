@@ -158,7 +158,7 @@ MonoBehaviour:
   _textureUrl: 
   _video: {fileID: 0}
   _videoUrl: 
-  _webcamName: OBS Virtual Camera
+  _webcamName: 
   _webcamResolution: {x: 1920, y: 1080}
   _webcamFrameRate: 30
   _outputTexture: {fileID: 0}
